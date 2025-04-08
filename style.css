@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color: #0C130C;
+}
+.container{
+    width: 1700px;
+    background-image: url(./media/Rectangle\ 52.png);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    position: fixed;
+    
+}
+nav{
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    text-shadow: rgb(29, 31, 31) 3px 4px 19px;
+   
+
+}
+body,a,h1{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0; 
+}
+#cover{
+    /* background-image: url(./media/main.jpg); */
+    height: 1000px;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 110px;
+    color: white;
+    margin-left: 130px;
+    text-shadow: rgb(29, 31, 31) 3px 4px 19px;
+    -webkit-text-stroke: 2px black;
+    
+}
+.basket{
+    border:solid;
+    margin-top: -20px;
+    padding: 12px;
+border-radius: 17px;
+    color: white;
+}
+.design{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;   
+    margin-left: 130px;
+}
+.but{
+    font-weight: 500;
+    font-size: 32px;
+    height: 77px;
+    width: 377px;
+    background-color: #192306;
+    border-radius: 15px;
+    margin-top: 42px;
+    margin-left: 130px;
+    cursor: pointer;
+    color: white;
+}
