@@ -1,12 +1,15 @@
 
 body{
     background-color: #0C130C;
+    margin: 0 auto;
 }
 .container{
     width: 1700px;
+    margin: auto;
     background-image: url(./main/Rectangle\ 52.png);
 }
 header{
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -23,7 +26,7 @@ nav{
 }
 
 body,a,h1{
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0; 
@@ -47,6 +50,7 @@ body,a,h1{
 }
 
 h1{
+    
     font-weight: 700;
     font-size: 110px;
     color: white;
@@ -69,6 +73,7 @@ border-radius: 17px;
     margin-left: 200px;
 }
 .but{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-weight: 500;
     font-size: 32px;
     height: 77px;
@@ -79,6 +84,8 @@ border-radius: 17px;
     margin-left: 200px;
     cursor: pointer;
     color: white;
+    border-style: solid;
+    border-color: #0C130C;
 }
 .catalog{
     background-image: url(./main/catalog.png);
