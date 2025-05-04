@@ -366,3 +366,12 @@ p {
 .faq-item--expanded {
   height: auto;
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  padding: 20px;
+}
+.footer h2{
+  font-size: 30px;
+}
